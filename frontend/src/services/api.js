@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({
   // baseURL: 'http://localhost:5001/api',
-  baseURL: 'https://msd-backend-nqln.onrender.com/api',
+  baseURL: 'https://msd-final-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
