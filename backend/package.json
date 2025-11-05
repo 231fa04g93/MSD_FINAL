@@ -1,0 +1,25 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for the React Expense Tracker app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "node Server.js",
+    "build": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
