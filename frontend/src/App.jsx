@@ -8,7 +8,7 @@ import ProfilePage from './components/ProfilePage.jsx';
 import axios from 'axios';
 import './index.css';
 
-const API_URL = 'https://msd-backend-nqln.onrender.com'
+const API_URL = 'https://msd-final-backend.onrender.com'
 // const API_URL = 'http://localhost:5001'
 
 const App = () => {
