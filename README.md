@@ -73,7 +73,3 @@ npm install
 npm run dev
 ```
 
-### 🔗 Access
-
-* Frontend: `http://localhost:5173`
-* Backend API: `http://localhost:5000`
