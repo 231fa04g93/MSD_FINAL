@@ -1,29 +1,79 @@
-💰 Expense Tracker (MERN Stack)
-Summary
-The Expense Tracker is a full-stack application built using the MERN stack (MongoDB, Express.js, React, Node.js) designed to provide users with a clean, efficient tool for managing personal finances. It allows users to track their income and expenses, calculate their running balance in real-time, and view a history of all transactions.
+# 💰 Expense Tracker (MERN Stack)
 
-This project uses a modern, decoupled architecture, with the frontend and backend deployed as separate services for scalability and faster loading times.
+## 📘 Summary
 
-🌐 Deployment Status
-The application is fully deployed and accessible via Render's cloud platform.
+The **Expense Tracker** is a **full-stack web application** built using the **MERN stack** — **MongoDB**, **Express.js**, **React**, and **Node.js**.
+It provides users with an intuitive and efficient tool to **manage personal finances**, track **income and expenses**, calculate **real-time balance**, and view a complete **transaction history**.
 
-Component	Status	URL
-Frontend (Client)	Live	https://msd-frontend-lx56.onrender.com
-Backend (API)	Live	https://msd-backend-nqln.onrender.com/
-🚀 Tech Stack
-Category	Component
-Frontend	React, Vite
-Backend	Node.js, Express.js
-Database	MongoDB (via Atlas)
-Deployment	Render
-✨ Key Features
-Real-time Balance: Calculates and displays the current account balance.
-Transaction CRUD: Full functionality to Create, Read, Update, and Delete transactions.
-API Structure: Backend serves data via secure REST endpoints.
-⚙️ Local Setup and Installation
-1. Prerequisites
-Node.js (LTS version) and npm
-MongoDB Atlas connection string.
-2. Clone the Repository
-git clone [https://github.com/231fa04g93/Expense-Tracker.git](https://github.com/231fa04g93/Expense-Tracker.git)
+The app follows a **modern decoupled architecture**, where the frontend and backend are deployed as separate services to improve **scalability** and **performance**.
+
+---
+
+## 🌐 Deployment Status
+
+The application is **fully deployed** and accessible via **Render’s cloud platform**.
+
+| Component             | Status | URL                                                                              |
+| --------------------- | ------ | -------------------------------------------------------------------------------- |
+| **Frontend (Client)** | ✅ Live |https://msd-final-frontend.onrender.com|
+| **Backend (API)**     | ✅ Live |https://msd-final-backend.onrender.com|
+
+---
+
+## 🚀 Tech Stack
+
+| Category       | Technologies        |
+| -------------- | ------------------- |
+| **Frontend**   | React, Vite         |
+| **Backend**    | Node.js, Express.js |
+| **Database**   | MongoDB (Atlas)     |
+| **Deployment** | Render              |
+
+---
+
+## ✨ Key Features
+
+* **Real-time Balance:** Instantly calculates and displays the current account balance.
+* **Transaction CRUD:** Create, Read, Update, and Delete transaction entries.
+* **RESTful API:** Backend serves secure and structured data via REST API endpoints.
+* **Responsive UI:** Clean, modern interface built with React and Vite.
+* **Persistent Storage:** Transactions stored securely using MongoDB Atlas.
+
+---
+
+## ⚙️ Local Setup & Installation
+
+### 🧩 Prerequisites
+
+* [Node.js (LTS version)](https://nodejs.org/) and npm
+* MongoDB Atlas account and connection string
+
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/231fa04g93/Expense-Tracker.git
 cd Expense-Tracker
+```
+
+### 🖥️ Setup Steps
+
+#### 1. Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+#### 2. Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### 🔗 Access
+
+* Frontend: `http://localhost:5173`
+* Backend API: `http://localhost:5000`
